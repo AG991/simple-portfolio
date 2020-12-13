@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Abhay Gupta</title>
+	<link rel = "icon" type = "image/png" href = "images/logo.png">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap-4.3.1.css" rel="stylesheet">
+      <style>
+        ::selection{
+            background: #ffffff;
+            color:red;
+            text-shadow: none;
+                    
+        }
+        #myImg1 {
+          border-radius: 5px;
+          cursor: pointer;
+          transition: 0.3s;
+        }
+
+        #myImg1:hover {opacity: 0.7;}
+        #myImg2:hover {opacity: 0.7;}
+        #myImg3:hover {opacity: 0.7;}
+        #myImg4:hover {opacity: 0.7;}
+        #myImg5:hover {opacity: 0.7;}
+        #myImg6:hover {opacity: 0.7;}
+
+        /* The Modal5 (background) */
+        .modal5 {
+          display: none; /* Hidden by default */
+          position: fixed; /* Stay in place */
+          z-index: 1; /* Sit on top */
+          padding-top: 100px; /* Location of the box */
+          left: 0;
+          top: 0;
+          width: 100%; /* Full width */
+          height: 100%; /* Full height */
+          overflow: auto; /* Enable scroll if needed */
+          background-color: rgb(0,0,0); /* Fallback color */
+          background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+        }
+
+        /* Modal Content (image) */
+        .modal-content {
+          margin: auto;
+          display: block;
+          width: 80%;
+          max-width: 700px;
+        }
+
+        /* Caption of Modal Image */
+        #caption {
+          margin: auto;
+          display: block;
+          width: 80%;
+          max-width: 700px;
+          text-align: center;
+          color: #ccc;
+          padding: 10px 0;
+          height: 150px;
+        }
+
+        /* Add Animation */
+        .modal-content, #caption {  
+          -webkit-animation-name: zoom;
+          -webkit-animation-duration: 0.6s;
+          animation-name: zoom;
+          animation-duration: 0.6s;
+        }
+
+        @-webkit-keyframes zoom {
+          from {-webkit-transform:scale(0)} 
+          to {-webkit-transform:scale(1)}
+        }
+
+        @keyframes zoom {
+          from {transform:scale(0)} 
+          to {transform:scale(1)}
+        }
+
+        /* The Close Button */
+        .close {
+          position: absolute;
+          top: 15px;
+          right: 35px;
+          color: #f1f1f1;
+          font-size: 40px;
+          font-weight: bold;
+          transition: 0.3s;
+        }
+
+        .close:hover,
+        .close:focus {
+          color: #bbb;
+          text-decoration: none;
+          cursor: pointer;
+        }
+
+        /* 100% Image Width on Smaller Screens */
+        @media only screen and (max-width: 700px){
+          .modal-content {
+          width: 100%;
+          }
+        }
+
+        .applications{
+          margin-left: 30px;
+        }
+      </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+          <div class="col-12">
+            <h1 class="text-center" style="color: darkblue; margin-top: 10px;"><strong>THIS IS MY CURRICULUM VITAE !</strong></h1>
+          </div>
+        </div>		
+        <hr>
+        <div class="row">
+          <div class="col-9">
+            <h2 class="text-left" style="font-family: algerian;">ABHAY GUPTA</h2>
+          </div>
+          <div class="col-3">
+        <div id="over" style="position:absolute; width:100%; height:100%">
+          <img src="images/logo.png" style="margin: 1% auto; width: 42px; display: block;">
+        </div>
+          </div>
+        </div>
+        <hr>
+        <div class="row">
+          <div class="col-md-8 col-sm-12">
+            <div class="media">
+              <img class="mr-3" src="images/Abhay.jpg" width="90px" alt="Generic placeholder image">
+              <div class="media-body">
+                <h5 class="mt-0">BASIC INFO -</h5>
+                <p class="text-justify">I have done Diploma in Information Technology in the year 2018 and currently studying in Shree L.R. Tiwari College of Engineering.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-12">
+            <div class="row justify-content-md-around m-1">
+              <address>
+                <strong>Abhay Gupta</strong><br>
+                Flat no.-Building Name, Area,<br>
+                Locality, Landmark,<br>
+          City. State.<br>	
+                <abbr title="Contact Number">P:</abbr> 1234567890<br>
+                <a href="mailto:#yourmailid@gmail.com">demo@gmail.com</a>
+              </address>
+            </div>
+          </div>
+        </div>
+        <hr>
+        <div class="row">
+          <div class="col-md-6 col-sm-12">
+            <h2 class="text-center">EDUCATION</h2>
+            <hr>
+            <div class="row">
+              <div class="col-6 col-lg-5">
+                <h4 class="text-center">SSC</h4>
+              </div>
+              <div class="col-6 col-lg-7">
+                <h5 class="text-right" style="margin-top: 5px;"><span aria-hidden="true"></span>June 03 - April 14</h5>
+              </div>
+            </div>
+            <h5><span class="badge badge-secondary">School</span></h5>
+            <p class="text-justify">I completed my SSC studies in Maharashtra State Board of Secondary and Higher Secondary Education in year 2014.</p>
+            <div class="row">
+              <div class="col-6 col-lg-5">
+                <h4 class="text-center" style="margin: 0; padding: 0;">HSC<h5 class="text-center">(SCIENCE)</h5></h4>
+              </div>
+              <div class="col-6 col-lg-7">
+                <h5 class="text-right" style="margin-top: 15px;"><span aria-hidden="true"></span>June 14 - Feb 16</h5>
+              </div>
+            </div>
+            <h5><span class="badge badge-secondary">College</span></h5>
+            <p class="text-justify">I completed my HSC studies in Maharashtra State Board of Secondary and Higher Secondary Education in year 2016.</p>
+        <div class="row">
+              <div class="col-6 col-lg-7">
+                <h4 class="text-center" style="margin: 0; padding: 0;">Diploma<h6 class="text-center" style="margin: 0; padding: 0;">in</h5><h5 class="text-center">Information Technology</h5></h4>
+              </div>
+              <div class="col-6 col-lg-5">
+                <h5 class="text-right"><span aria-hidden="true"></span><br>Aug 16 - June 18</h5>
+              </div>
+            </div>
+        <h5><span class="badge badge-secondary">Diploma</span></h5>
+            <p class="text-justify">I completed my Diploma in Information Technology in Maharashtra State Board of Technical Education in year 2018.</p>
+        <div class="row">
+              <div class="col-6 col-lg-7">
+                <h5 class="text-center" style="margin: 0; padding: 0;">Bachelor of Engineering<h6 class="text-center" style="margin: 0; padding: 0;">in</h6><h5 class="text-center">Information Technology</h5></h5>
+              </div>
+              <div class="col-6 col-lg-5">
+                <h5 class="text-right"><span aria-hidden="true"></span><br>Aug 18 - June 21</h5>
+              </div>
+            </div>
+        <h5><span class="badge badge-secondary">BE</span></h5>
+            <p class="text-justify">Currently studying Bachelor of Engineering in Shree L.R. Tiwari College of Engineeing in Infomation Technology from University of Mumbai. I'll complete this study in the year of 2021.</p>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <h2 class="text-center">SKILL SET</h2>
+            <hr>
+            <div class="progress mt-4">
+              <div class="progress-bar progress-bar-striped active bg-success" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%" title="85%"> HTML</div>
+            </div>
+            <br>
+            <div class="progress mt-4">
+              <div class="progress-bar progress-bar-striped active bg-s" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%" title="80%"> CSS</div>
+            </div>
+        <br>
+            <div class="progress mt-4">
+              <div class="progress-bar progress-bar-striped active bg-info" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 60%" title="60%"> JAVASCRIPT</div>
+            </div>
+        <br>
+            <div class="progress mt-4">
+              <div class="progress-bar progress-bar-striped active bg-success" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 65%" title="65%"> JAVA AND C++</div>
+            </div>
+        <br>
+            <div class="progress mt-4">
+              <div class="progress-bar progress-bar-striped active bg-warning" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%" title="85%"> MYSQL</div>
+            </div>
+        <br>
+            <div class="progress mt-4">
+              <div class="progress-bar progress-bar-striped active bg-s" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 60%" title="60%"> ANDROID STUDIO </div>
+            </div>
+        <br>
+            <div class="progress mt-4">
+              <div class="progress-bar progress-bar-striped active bg-success" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%" title="50%">PYTHON AND JSP</div>
+            </div>
+        <br>
+        <div class="progress mt-4">
+              <div class="progress-bar progress-bar-striped active bg-warning" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 90%" title="90%"> MS OFFICE</div>
+            </div>
+        <br>
+        <div class="progress mt-4">
+              <div class="progress-bar progress-bar-striped active bg-info" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 75%" title="75%"> ADOBE PHOTOSHOP</div>
+            </div>
+        <br>
+        <div class="progress mt-4">
+              <div class="progress-bar progress-bar-striped active bg-success" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 90%" title="90%"> COREL DRAW</div>
+            </div>
+        <br>
+        <div class="progress mt-4">
+              <div class="progress-bar progress-bar-striped active bg-s" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 70%" title="70%"> ADOBE FLASH</div>
+            </div>
+          </div>
+        </div>
+        <hr>
+        <h2>SOME ADDITIONAL COURSES -</h2>
+        <hr>
+        <div class="row">
+          <div class="col-md-6 col-sm-12">
+            <div class="row">
+              <div class="col-6 col-lg-7">
+                <h5 class="text-center">MS-CIT</h5>
+              </div>
+              <div class="col-6 col-lg-5">
+                <h5 class="text-right"><span aria-hidden="true"></span> June 2015</h5>
+              </div>
+            </div>
+            <br><br><h5><span class="badge badge-secondary">Computer Course</span></h5>
+            <p class="text-justify">I have successfully completed the course of <strong>MAHARASHTRA STATE CERTIFICATE IN INFOMATION TECHNOLOGY (MS-CIT)</strong> in the year of 2015 from <strong>MAHARASHTRA STATE BOARD OF TECHNICAL EDUCATION</strong>.</p>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="row">
+              <div class="col-6 col-lg-7">
+                <h5 class="text-center">CERTIFICATION<br>IN<br>WEB DESIGNING</h5>
+              </div>
+              <div class="col-6 col-lg-5">
+                <h5 class="text-right" style="margin-top: 10%;"><span aria-hidden="true"></span> Nov 2015</h5>
+              </div>
+            </div>
+            <h5><span class="badge badge-secondary">Computer Course</span></h5>
+            <p class="text-justify">I have successfully completed the course of <strong>CERTIFICATE IN WEB DESIGNING</strong> in the year of 2015 from <strong>ALL INDIA COUNCIL FOR POFESSIONAL EXCELLENCE</strong>.</p>
+          </div>
+        </div>
+      <hr>
+        <h3>WORK EXPERIENCE -</h3>
+        <hr>
+        <h6 style="margin-left: 30px;">Fresher</h6>
+        <hr>
+        <h3>SOME PICS OF MY RECENT WORK -</h3>
+        <hr>
+        <div class="container">
+          <div class="row text-center">
+            <div class="col-sm-4 col-12 p-0">
+              <img class="img-thumbnail" id="myImg1" src="images/1.png" style="width:100%;max-width:300px" alt="HomePage">
+            </div>
+            <div class="col-sm-4 col-12 p-0">
+              <img class="img-thumbnail" id="myImg2" src="images/2.png" style="width:100%;max-width:300px" alt="SignUp Form">
+            </div>
+            <div class="col-sm-4 col-12 p-0">
+              <img class="img-thumbnail" id="myImg3" src="images/3.png" style="width:100%;max-width:300px" alt="Chapter 1 Page">
+            </div>
+          </div>
+          <p>
+          <div class="row text-center">
+            <div class="col-sm-4 col-12 p-0">
+              <img class="img-thumbnail" id="myImg4" src="images/4.png" style="width:100%;max-width:300px" alt="Add Question Form">
+            </div>
+            <div class="col-sm-4 col-12 p-0"
+            ><img class="img-thumbnail" id="myImg5" src="images/5.png" style="width:100%;max-width:300px" alt="Modal Question And Answer Page">
+          </div>
+            <div class="col-sm-4 col-12 p-0">
+              <img class="img-thumbnail" id="myImg6" src="images/6.png" style="width:100%;max-width:300px" alt="Video Tutorial Page">
+            </div>
+          </div>
+          <!-- The Modal -->
+          <div id="myModal5" class="modal5">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="img01">
+            <div id="caption"></div>
+          </div>
+          <script>
+            // Get the modal
+            var modal = document.getElementById("myModal5");
+            
+            // Get the image and insert it inside the modal - use its "alt" text as a caption
+            var img = document.getElementById("myImg1");
+            var modalImg = document.getElementById("img01");
+            var captionText = document.getElementById("caption");
+            img.onclick = function(){
+              modal.style.display = "block";
+              modalImg.src = this.src;
+              captionText.innerHTML = this.alt;
+            }
+            
+            var img = document.getElementById("myImg2");
+            var modalImg = document.getElementById("img01");
+            var captionText = document.getElementById("caption");
+            img.onclick = function(){
+              modal.style.display = "block";
+              modalImg.src = this.src;
+              captionText.innerHTML = this.alt;
+            }
+
+            var img = document.getElementById("myImg3");
+            var modalImg = document.getElementById("img01");
+            var captionText = document.getElementById("caption");
+            img.onclick = function(){
+              modal.style.display = "block";
+              modalImg.src = this.src;
+              captionText.innerHTML = this.alt;
+            }
+
+            var img = document.getElementById("myImg4");
+            var modalImg = document.getElementById("img01");
+            var captionText = document.getElementById("caption");
+            img.onclick = function(){
+              modal.style.display = "block";
+              modalImg.src = this.src;
+              captionText.innerHTML = this.alt;
+            }
+
+            var img = document.getElementById("myImg5");
+            var modalImg = document.getElementById("img01");
+            var captionText = document.getElementById("caption");
+            img.onclick = function(){
+              modal.style.display = "block";
+              modalImg.src = this.src;
+              captionText.innerHTML = this.alt;
+            }
+
+            var img = document.getElementById("myImg6");
+            var modalImg = document.getElementById("img01");
+            var captionText = document.getElementById("caption");
+            img.onclick = function(){
+              modal.style.display = "block";
+              modalImg.src = this.src;
+              captionText.innerHTML = this.alt;
+            }
+            
+            // Get the <span> element that closes the modal
+            var span = document.getElementsByClassName("close")[0];
+            
+            // When the user clicks on <span> (x), close the modal
+            span.onclick = function() { 
+              modal.style.display = "none";
+            }
+            </script>
+        </div>
+        <div class="applications">
+          <hr>
+          <h4>APPLICATIONS -</h4>
+          <hr>
+          <li>
+            <a href="https://play.google.com/store/apps/details?id=com.playnlearn.readandgrow" target="_blank">
+              <span style="color: darkblue;"><b>Read and Grow -</b></span> https://play.google.com/store/apps/details?id=com.playnlearn.readandgrow
+            </a>
+          </li>
+          <li>
+            <a href="https://play.google.com/store/apps/details?id=com.playnlearn.kitchenzone" target="_blank">
+              <span style="color: darkblue;"><b>Kitchen Zone -The Recipe App -</b></span> https://play.google.com/store/apps/details?id=com.playnlearn.kitchenzone
+            </a>
+          </li>
+        </div>
+      <hr>
+        <h3>GET IN TOUCH WITH ME -</h3>
+        <hr>
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-12">
+        <table align="center" border="0" cellpadding="20" cellspacing="5" height="1">
+          <tr>
+            <th>
+              <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank" style="color: red;"><abbr title="yourmailid@gmail.com" style="text-decoration: none;"><img src="images/gmail.png" width="25"></abbr></a>
+            </th>
+            <th>
+              <a href="https://www.facebook.com/guptaabhay991" target="_blank" style="color: mediumblue;"><img src="images/fb.png" width="25"></a>
+            </th>
+            <th>
+              <a href="https://www.instagram.com/abhaygupta42/" target="_blank" style="color: #c22e4d;"><img src="images/instagram.png" width="25"></a>
+            </th>
+            <th>
+              <a href="https://twitter.com/AG25708211" target="_blank" style="color: deepskyblue;"><img src="images/twitter.png" width="25"></a>
+            </th>
+          </tr>
+        </table>
+        </div>
+          </div>
+        </div>
+        <hr>
+        <div class="container">
+      <footer>
+            <div class="row">
+              <div class="col-5">
+                  <div style="text-align: center; font-size: 12px; margin-bottom: 20PX;">Copyright ©<i style="font-family:serif; font-size: small; color: red;"><abbr title="Click To Send A Message." style="text-decoration: none;"><a href="#" data-toggle="modal" data-target="#myModal1">ABHAYGUPTA</a></abbr></i>. All rights reserved.</div>
+              </div>
+              <div class="col-4">
+                  <h6><abbr title="Leave Your Valuable Feedback." style="text-decoration: none; font-size: 14px;"><i style="color:darkblue;"><a href="#" data-toggle="modal" data-target="#myModal2"><strong style="padding-left: 22%">Feedback</strong></a></i></abbr></h6>
+              </div>
+              <div class="col-3">
+                <h6><i style="color:darkblue; font-size: 14px;"><a href="https://manishdesigner.com/privacy_policy.html">Privacy Policy</a></i></h6>
+            </div>
+            </div>
+      </footer>
+    </div>
+      <!-- Modal 1-->
+        <div class="modal fade" id="myModal1" role="dialog">
+            <div class="modal-dialog">
+
+                <!-- Modal 1 content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" style="color: forestgreen;"><i>Send A Message</i></h4>
+                    </div>
+                    <div class="modal-body">
+                      <form action="message.php" method="post">
+                          <div class="form-group" >
+                              <label>First Name :</label><input type="text" class="form-control" name="fname" placeholder="Enter Your First Name Here." required>
+                              <label>Last Name :</label><input type="text" name="lname" class="form-control" placeholder="Enter Your Last Name Here." required>
+                              <label>Email Id :</label><input type="email" class="form-control" name="email" placeholder="Enter Your Email-ID Here." required>
+                              <label>Phone Number :</label><input type="text" class="form-control" name="phone" placeholder="Enter Your Contact Number Here. (optional)">
+                              <label>Message :</label><textarea rows="3" cols="10" class="form-control" name="message" placeholder="leave Your message here!" required></textarea>
+                          </div>
+                          <div class="modal-footer">
+                              <button type="submit" name='submit' class="btn btn-success">Submit</button>
+                              <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
+                          </div>
+                      </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        
+        <!-- Modal 2-->
+        <div class="modal fade" id="myModal2" role="dialog">
+            <div class="modal-dialog">
+
+                <!-- Modal 2 content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" style="color: forestgreen;"><i>Feedback Form</i></h4>
+                    </div>
+                    <div class="modal-body">
+                        <form action="feedback.php" method="post">
+                            <div class="form-group" >
+                                <label>Full Name :</label><input type="text" class="form-control" name="fname" placeholder="Enter Your Full Name Here." required>
+                                <label>Email Id :</label><input type="email" class="form-control" name="email" placeholder="Enter Your Email-ID Here." required>
+                                <label>Comment :</label><textarea rows="4" cols="10" class="form-control" name="comment" placeholder="Leave Your Valuable Feedback Here." required></textarea>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="submit" name='submit' class="btn btn-success">Submit</button>
+                                <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap-4.3.1.js"></script>
+  </body>
+</html>
